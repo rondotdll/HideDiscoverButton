@@ -2,21 +2,21 @@
  * @name Hide Discover Button
  * @description Hide the stupid discord discovery button that sits at the bottom of the server list and breaks certain other themes
  * @author s7david
- * @version 1.0.0
+ * @version 1.1.0
  * @invite 8FBjza6x8N
  * @website https://github.com/rondotdll
  */
 
-.footer_f8ec41 {
+div[class^="itemsContainer_"] > div[class^="footer_"] {
     padding: 0px;
 }
 
-.gradient_f8ec41 {
+div[class^="itemsContainer_"] > div[class^="footer_"] > div[class^="gradient_"]{
     display: none;
     background: transparent;
 }
 
-.footer_f8ec41 .listItem_c96c45 {
+div[class^="itemsContainer_"] > div[class^="footer_"] > div[class^="listItem_"] {
     display: none;
     margin: 0px;
 }
